@@ -1,0 +1,62 @@
+body{
+    width:100%;
+    margin:0;
+    heigth:100%;
+ }
+ h1{
+    color: white;
+    text-align: center;
+ }
+ 
+ .menu1 ul{
+    background-color:#ff892b;
+    margin:0 auto;
+    width:100%;   
+    padding:10px;   
+ }
+ .menu1 li{
+    display:inline;   
+    border-right: 1px solid #A10051;   
+    color:#434343;
+    font-weight:400;
+    padding: 10px;
+ }
+ .menu1 li:hover{
+    background-color:RGB(123, 125, 125);      
+    border-right: 1px solid RGB(66, 73, 73);
+    font-weight:600;
+    text-decoration:underline;
+    cursor:pointer;
+ }  
+ body{
+     background-color: black;
+     margin: 10px;
+ }
+h3{color: wheat;
+text-align: justify;
+}
+h2{
+    color: white;
+    text-align: left;
+}
+img{
+   width: 40%;
+   height: 40%;
+}
+button{
+   background-color: #ff892b;
+   color: black;
+}
+@media (max-width:320px){
+   <!—- Aquí van todos los estilos CSS -->
+ }
+ @media (min-width:768px){
+   <!—- Aquí van todos los estilos CSS -->
+ }
+ @media (orientation: landscape) {
+   <!-- Aquí van todos los estilos CSS -->
+ }
+ @media only screen and (min-device-width: 960px){
+   /* Aquí van todos los estilos CSS */
+ }
+ 
